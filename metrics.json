@@ -1,0 +1,57 @@
+{
+  "test_accuracy": 0.9237,
+  "best_val_accuracy": 0.9356,
+  "macro_f1": 0.91,
+  "num_classes": 6,
+  "classes": [
+    "Calculus",
+    "Caries",
+    "Gingivitis",
+    "Hypodontia",
+    "Mouth_Ulcer",
+    "Tooth_Discoloration"
+  ],
+  "train_size": 9856,
+  "val_size": 1848,
+  "test_size": 616,
+  "per_class": {
+    "Calculus": {
+      "precision": 0.631,
+      "recall": 0.815,
+      "f1": 0.711,
+      "support": 65
+    },
+    "Caries": {
+      "precision": 1.0,
+      "recall": 0.985,
+      "f1": 0.992,
+      "support": 130
+    },
+    "Gingivitis": {
+      "precision": 0.871,
+      "recall": 0.746,
+      "f1": 0.804,
+      "support": 118
+    },
+    "Hypodontia": {
+      "precision": 0.967,
+      "recall": 0.952,
+      "f1": 0.959,
+      "support": 62
+    },
+    "Mouth_Ulcer": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 140
+    },
+    "Tooth_Discoloration": {
+      "precision": 0.99,
+      "recall": 1.0,
+      "f1": 0.995,
+      "support": 101
+    }
+  },
+  "model": "EfficientNet-B0",
+  "dataset": "Oral Diseases Dataset (Kaggle: miraosama/oral-diseases-dataset)"
+}
